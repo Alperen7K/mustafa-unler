@@ -5,11 +5,12 @@ import instagram from "./assets/instagram.png";
 import linkedin from "./assets/linkedin.png";
 import mail from "./assets/mail.png";
 import phone from "./assets/phone-call.png";
+import ozteknik from "./assets/ozteknik-logo.png";
 
 function App() {
-  let iconClass = "w-[20px] m-2";
+  let iconClass = "w-[30px] m-2";
   let aClass = "flex items-center justify-center my-1";
-  let labelClass = "text-[20px]";
+  let labelClass = "text-[25px] font-bold";
 
   return (
     <div
@@ -18,10 +19,11 @@ function App() {
     >
       <div className="flex flex-col items-center">
         <img
-          className="w-[80vw] rounded-[10px] mt-10 border-solid border-4 border-black drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
+          className="w-[60vw] rounded-[10px] mt-5 border-solid border-4 border-black drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
           src={mustafa}
         />
-        <h1 className="m-2 text-[30px] ">Mustafa ÜNLER</h1>
+        <img className="my-2" src={ozteknik} />
+        <h1 className="m-2 mb-8 text-[30px] font-bold">Mustafa ÜNLER</h1>
 
         <div className="flex flex-col items-start justify-center">
           <a className={aClass}>
