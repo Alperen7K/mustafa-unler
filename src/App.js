@@ -46,7 +46,7 @@ function App() {
             className={aClass}
           >
             <img alt="icon" className={iconClass} src={net} />
-            <label className={labelClass}>Özteknik Rekar Websitemiz</label>
+            <label className={labelClass}>Özteknik Rekor Websitemiz</label>
           </a>
           <a
             className={aClass}
