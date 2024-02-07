@@ -1,3 +1,15 @@
 .dropShadow {
   filter: drop-shadow(4px 1px 15px #000000d5);
 }
+
+@font-face {
+  font-family: 'FontBold';
+  src: local('YourFontName'), url('assets/Salsa/Salsa-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body{
+  font-family: 'FontBold', sans-serif;
+}
